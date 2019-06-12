@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header {
+	height: 125px;
+	overflow-y: hidden;
+}
+
+.wrap {
+	width: 100%;
+	height: 125px;
+	display: inline-block;
+}
+
+.left_section {
+	display: flex;
+	float: left;
+	width: 520px;
+	height: 125px;
+	overflow-y: hidden;
+}
+
+.right_section {
+	display: flex;
+	float: right;
+	width: 800px;
+	height: 125px;
+	overflow-y: hidden;
+}
+
+.green_banner {
+	width: 100%;
+	height: 18px;
+	background-color: #019031;
+}
+
+.image_container {
+	width: 125px;
+	height: 125px;
+	background-image: url("Images/profile_photo.jpg");
+	background-size: cover;
+}
+
+.logo_container {
+	width: 180px;
+	height: 125px;
+	background-image: url("Images/HTRE Logo Transparent.png");
+	background-size: cover;
+	margin: 0 10px 0 10px;
+	position: static;
+}
+
+.text_container {
+	width: 375px;
+	height: 125px;
+	vertical-align: middle;
+	justify-content: center;
+	color: #2C3335;
+	margin: 20px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #2C3335;
+	margin: 0 5px;
+}
+
+.menu_container {
+	display: flex;
+	margin: 50px 0 0 0;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.15em;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+.top_section {
+	display: flex;
+	margin: 10px;
+	width: 100%
+}
+
+.top_image_container {
+	width: 710px;
+	height: 410px;
+	background-image: url("Images/keys_photo.jpg");
+	background-size: cover;
+	margin-left: 10px;
+}
+
+.bot_section {
+	margin: 0 10px 10px;
+	display: flex;
+	width: 100%;
+}
+
+.text_overlay {
+	position: relative;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	margin: 40px 0 0 30px;
+}
+
+.bot_image_container {
+	width: 885px;
+	height: 400px;
+	background-color: #6ab04c;
+	float: right;
+	margin-left: 10px;
+}
+
+.bot_left_section {
+	width: 33%;
+	height: 150px;
+	float: left;
+}
+
+.bot_right_section {
+	width: 25%;
+	height: 150px;
+	float: right;
+	display: flex;
+	position: relative;
+}
+
+h5 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.25em;
+	color: #FFFFFF;
+	margin: 25px 20px 0;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: #26ae60;
+}
+
+.text_wrap {
+	position: relative;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+footer h1 {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1em;
+	color: #FFFFFF;
+}
+
+i {
+	margin: 10px 0 0 20px;
+	font-size: 2.5em;
+	color: #FFFFFF;
+}
+
+.footer_image_wrap {
+	display: flex;
+	position: relative;
+	margin: 25px 0 0 0;
+}
+
+.equal_housing_logo {
+	height: 100px;
+	width: 100px;
+	background-image: url("Images/Equal Housing Logo.jpeg");
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.realtor_logo {
+	height: 100px;
+	width: 100px;
+	background-image: url("Images/Realtor Logo.jpeg");
+	background-size: cover;
+}
+
+/* Blog Components */
+.blog_body {
+	width: 100%;
+	height: 1000px;
+	margin: 0;
+	display: flex;
+}
+
+.blog_left {
+	width: 50%;
+	margin: 10px 10px 10px 30px;
+	height: 980;
+	float: left;
+	text-align: center;
+}
+
+.blog_right {
+	width: 50%;
+	height: 980px;
+	float: right;
+	margin: 10px;
+}
+
+.blog_image_container {
+	width: 100%;
+	height: 50%;
+	background-image: url("Images/blog_facebook.jpg");
+	background-size: cover;
+}
+
+.social_icons i {
+	font-size: 4em;
+	color: #019031;
+}
+
+.social_icons h5 {
+	color: #019031;
+}
